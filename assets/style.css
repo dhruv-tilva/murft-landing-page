@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@500&family=Darker+Grotesque:wght@500&family=Noto+Sans+Symbols&family=Noto+Sans:wght@500&family=Public+Sans:wght@300&family=Roboto&display=swap');
+
+.carousel__pagination-button::after {
+    content: "" !important;
+    height: 15px !important;
+    width: 15px !important;
+    background-color: #fbe9bc !important;
+    border-radius: 50% !important;
+    cursor: pointer !important;
+}
+
+.carousel__pagination-button--active::after {
+    background-color: #F6D88C !important;
+    content: "" !important;
+    height: 15px !important;
+    width: 15px !important;
+    border-radius: 50% !important;
+}
+
+.carousel__pagination {
+    justify-content: end !important;
+}
+
+.carousel__pagination-button {
+    cursor: default !important;
+}
